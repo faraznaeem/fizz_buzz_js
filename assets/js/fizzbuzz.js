@@ -6,6 +6,7 @@ fizzBuzz.prototype.fizzBuzzFunction = function(integer){
     return ("fizz");
   }
   else if (integer % 5 === 0) {
-    return("buzz");
+    return ("buzz");
   }
+
 };
