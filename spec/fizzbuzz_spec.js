@@ -6,8 +6,8 @@ describe("fizzBuzz", function() {
     subject = new fizzBuzz();
   });
 
-  it("#dividesBy3", function() {
-    expect(subject.dividesBy3(3).toEqual('fizz'));
+  it("#fizzBuzz", function() {
+    expect(subject.fizzBuzzFunction(3)).toBe('fizz');
   });
 
 });
