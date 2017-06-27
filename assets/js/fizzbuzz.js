@@ -11,5 +11,8 @@ fizzBuzz.prototype.fizzBuzzFunction = function(integer){
   else if (integer % 3 === 0) {
     return ("fizz");
   }
+  else {
+    return integer;
+  }
 
 };
