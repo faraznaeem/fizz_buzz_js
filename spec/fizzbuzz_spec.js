@@ -7,7 +7,7 @@ describe("fizzBuzz", function() {
   });
 
   it("#dividesBy3", function() {
-    expect(subject.dividesBy3().toEqual('fizz'));
+    expect(subject.dividesBy3(3).toEqual('fizz'));
   });
 
 });
