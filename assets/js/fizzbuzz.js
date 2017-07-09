@@ -1,18 +1,18 @@
-function fizzBuzz(){
-}
+function fizzBuzz(integer){
 
 fizzBuzz.prototype.fizzBuzzFunction = function(integer){
-  if(integer % 3 === 0 && integer % 5 === 0){
-    return ("FizzBuzz!");
+
+  if (integer % 3 === 0 && integer % 5 === 0){
+    console.log("FizzBuzz!");
   }
   else if (integer % 5 === 0) {
-    return ("buzz");
+    console.log("buzz");
   }
   else if (integer % 3 === 0) {
-    return ("fizz");
+    console.log("fizz");
   }
   else {
-    return integer;
+    console.log("bye bye");
   }
-
 };
+}
